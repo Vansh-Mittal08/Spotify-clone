@@ -1,0 +1,145 @@
+/* style.css */
+
+/* General styles */
+body {
+    background-color: #121212;
+    color: #FFFFFF;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #1DB954;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.equal-size{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 10px;
+}
+/* Navigation Bar */
+.navbar {
+    padding: 1rem;
+}
+
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.form-inline {
+    display: flex;
+    align-items: center;
+}
+
+.form-control {
+    background-color: #282828;
+    border: none;
+    color: #FFFFFF;
+}
+
+.form-control::placeholder {
+    color: #B3B3B3;
+}
+
+/* Main Content */
+.container-fluid {
+    padding: 2rem;
+}
+
+h2 {
+    border-bottom: 1px solid #282828;
+    padding-bottom: 0.5rem;
+}
+
+img.img-fluid {
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+/* Latest Release */
+.list-group-item {
+    
+    background-color: #282828;
+    border: none;
+    margin-bottom: 0.5rem;
+
+}
+
+.list-group-item img {
+    border-radius: 5px;
+}
+
+.list-group-item h5 {
+    margin: 0;
+}
+
+.list-group-item small {
+    color: #B3B3B3;
+}
+
+/* Popular Artists */
+.d-flex.flex-wrap .p-2 {
+    text-align: center;
+}
+
+.d-flex.flex-wrap .p-2 img {
+    border-radius: 50%;
+    width: 50px;
+    height: 120px;
+}
+
+.d-flex.flex-wrap .p-2 p {
+    margin-top: 0.5rem;
+}
+
+/* Categories */
+.d-flex.flex-wrap .p-2.text-center img {
+    border-radius: 50%;
+    width: 50px;
+    height: 100px;
+}
+
+.d-flex.flex-wrap .p-2.text-center p {
+    margin-top: 0.5rem;
+}
+
+/* Album covers */
+.album-cover {
+    text-align: center;
+    margin: 0 10px;
+    
+}
+
+.album-cover img {
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    
+}
+
+.album-cover p {
+    margin-top: 0.5rem;
+    color: #B3B3B3;
+}
+
+/* Queue */
+.list-group-item .d-flex img {
+    border-radius: 5px;
+}
+
+.list-group-item .d-flex .ml-3 h5 {
+    margin: 0;
+}
+
+.list-group-item .d-flex .ml-3 small {
+    color: #B3B3B3;
+}

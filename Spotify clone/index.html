@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="logo2.png" alt="Spotify Logo" style="width: 30px;">
+            Spotify  
+        </a>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Favourites</a>
+            </li>
+       
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">Favourites</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-bell"></i></a>
+                </li>
+            </ul>
+        </div>
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        </form>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Left Content -->
+            <div class="col-md-9">
+                <!-- Top Images -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="latin.png" class="img-fluid" alt="Latin">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="mood.jpg" class="img-fluid" alt="Mood Booster">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="edm2.jpg" class="img-fluid" alt="EDM">
+                    </div>
+                </div>
+
+                <!-- Latest Release -->
+                 
+                <h2 class="my-4 text-white">Latest Release</h2>
+                <div class="latest-release">
+                    <div class="latest-release-item">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                        <div class="d-flex w-100 justify-content-between">
+                            <img src="img1.jpg" class="equal-size" alt="Album" style="width: 50px;">
+                            <div class="ml-3">
+                                <h5 class="mb-1">Raah</h5>
+                                <small>Apr 20,2024</small>
+                            </div>
+                            <small>5:57</small>
+                        </div>
+                    </a>
+                </div>
+                    <!-- Repeat for other songs -->
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                        <div class="d-flex w-100 justify-content-between">
+                            <img src="img2.jpeg"  class="equal-size"alt="Album" style="width: 50px;">
+                            <div class="ml-3">
+                                <h5 class="mb-1">Khandani</h5>
+                                <small>May 20,2024</small>
+                            </div>
+                            <small>12:58</small>
+                        </div>
+                    </a>
+
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                        <div class="d-flex w-100 justify-content-between">
+                            <img src="img3.jpeg"  class="equal-size"alt="Album" style="width: 50px;">
+                            <div class="ml-3">
+                                <h5 class="mb-1">Ve Rabba</h5>
+                                <small>Mar 10,2024</small>
+                            </div>
+                            <small>8:54</small>
+                        </div>
+                    </a>
+
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                        <div class="d-flex w-100 justify-content-between">
+                            <img src="img4.jpg"  class="equal-size"alt="Album" style="width: 50px;">
+                            <div class="ml-3">
+                                <h5 class="mb-1">Yaar Bolde</h5>
+                                <small>Jun 23,2024</small>
+                            </div>
+                            <small>20:28</small>
+                        </div>
+                    </a>
+
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                        <div class="d-flex w-100 justify-content-between">
+                            <img src="img5.jpg"  class="equal-size"alt="Album" style="width: 50px;">
+                            <div class="ml-3">
+                                <h5 class="mb-1">Ghost</h5>
+                                <small>Feb 26,2024</small>
+                            </div>
+                            <small>9:30</small>
+                        </div>
+                    </a>
+
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                        <div class="d-flex w-100 justify-content-between">
+                            <img src="img6.jpeg"  class="equal-size"alt="Album" style="width: 50px;">
+                            <div class="ml-3">
+                                <h5 class="mb-1">G.O.A.T</h5>
+                                <small>Apr 24,2024</small>
+                            </div>
+                            <small>8:45</small>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+                <h2 class="my-4 text-white">Popular Artists</h2>
+                <div class="d-flex flex-wrap">
+                    <div class="p-2">
+                        <img src="s1.jpeg" class="rounded-circle" alt="Shakira" style="width: 100px;">
+                        <p class="text-center text-white">Shakira</p>
+                    </div>
+                    <div class="p-2">
+                        <img src="s2.jpg" class="rounded-circle" alt="Justin Bieber" style="width: 100px;">
+                        <p class="text-center text-white">Justin Bieber</p>
+                    </div>
+                    <div class="p-2">
+                        <img src="s3.jpg" class="rounded-circle" alt="Selena Gomez" style="width: 100px;">
+                        <p class="text-center text-white">Selena Gomez</p>
+                    </div>
+                    <!-- Repeat for other artists -->
+                    <div class="p-2">
+                        <img src="s4.jpeg" class="rounded-circle" alt="Diljit Dosanjh" style="width: 100px;">
+                        <p class="text-center text-white">Diljit Dosanjh</p>
+                    </div>
+
+                    <div class="p-2">
+                        <img src="s5.jpeg" class="rounded-circle" alt="Arijit Singh" style="width: 100px;">
+                        <p class="text-center text-white">Arijit Singh</p>
+                    </div>
+
+                    <div class="p-2">
+                        <img src="s6.jpg" class="rounded-circle" alt="Badshah" style="width: 100px;">
+                        <p class="text-center text-white">Badshah</p>
+                    </div>
+
+                    <div class="p-2">
+                        <img src="s7.jpeg" class="rounded-circle" alt="Neha Kakkar" style="width: 100px;">
+                        <p class="text-center text-white">Neha Kakkar</p>
+                    </div>
+
+                    <div class="p-2">
+                        <img src="s8.jpeg" class="rounded-circle" alt="Ed Sheeran" style="width: 100px;">
+                        <p class="text-center text-white">Ed Sheeran</p>
+                    </div>
+
+                    <div class="p-2">
+                        <img src="s9.jpg" class="rounded-circle" alt="Taylor Swift" style="width: 100px;">
+                        <p class="text-center text-white">Taylor Swift</p>
+                    </div>
+                </div>
+
+                <!-- Categories -->
+                <div class="d-flex flex-wrap">
+                    <div class="p-2 text-center">
+                        <img src="m1.jpg" class="rounded-circle" alt="Music" style="width: 100px;">
+                        <p class="text-center text-white">Music</p>
+                    </div>
+                    <div class="p-2 text-center">
+                        <img src="m2.jpg" class="rounded-circle" alt="Love" style="width: 100px;">
+                        <p class="text-center text-white">Love</p>
+                    </div>
+                    <div class="p-2 text-center">
+                        <img src="m3.jpg" class="rounded-circle" alt="Retro" style="width: 100px;">
+                        <p class="text-center text-white">Retro</p>
+                    </div>
+                    <!-- Repeat for other categories -->
+                    <div class="p-2 text-center">
+                        <img src="m4.jpg" class="rounded-circle" alt="Chill" style="width: 100px;">
+                        <p class="text-center text-white">Chill</p>
+                    </div>
+
+                    <div class="p-2 text-center">
+                        <img src="m5.jpg" class="rounded-circle" alt="Dev" style="width: 100px;">
+                        <p class="text-center text-white">Dev</p>
+                    </div>
+
+                    <div class="p-2 text-center">
+                        <img src="m6.jpg" class="rounded-circle" alt="Work" style="width: 100px;">
+                        <p class="text-center text-white">Work</p>
+                    </div>
+
+                    <div class="p-2 text-center">
+                        <img src="m7.png" class="rounded-circle" alt="Melody" style="width: 100px;">
+                        <p class="text-center text-white">Melody</p>
+                    </div>
+
+                    <div class="p-2 text-center">
+                        <img src="m3.jpg" class="rounded-circle" alt="Retro" style="width: 100px;">
+                        <p class="text-center text-white">Retro</p>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <h4 class="text-light">Latest English</h4>
+                        <div class="d-flex justify-content-between">
+                            <div class="album-cover">
+                                <img src="l1.jpeg" class="img-fluid" alt="Album 1">
+                                <p>Crew<br><small>Mar 23,2024</small></p>
+                            </div>
+                            <div class="album-cover">
+                                <img src="l2.jpeg" class="img-fluid" alt="Album 2">
+                                <p>Park<br><small>Apr 12,24</small></p>
+                            </div>
+                            <!-- Repeat for more albums -->
+                            <div class="album-cover">
+                                <img src="l3.jpeg" class="img-fluid" alt="Album 3">
+                                <p>Snow<br><small>May 25,2024</small></p>
+                            </div>
+                            <div class="album-cover">
+                                <img src="l4.png" class="img-fluid" alt="Album 4">
+                                <p>Battles<br><small>Jan 15,2024</small></p>
+                            </div>
+                            <div class="album-cover">
+                                <img src="l5.jpeg" class="img-fluid" alt="Album 5">
+                                <p>Light<br><small>Feb 25,2024</small></p>
+                            </div>
+                            <div class="album-cover">
+                                <img src="l6.jpeg" class="img-fluid" alt="Album 6">
+                                <p>Bad English<br><small>Apr 26,2024</small></p>
+                            </div>
+                            <div class="album-cover">
+                                <img src="l7.jpeg" class="img-fluid" alt="Album 7">
+                                <p>Lonely Child<br><small>Jun 12,2024</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <h4 class="text-light">Latest English</h4>
+                        <div class="d-flex justify-content-between">
+                            <div class="album-cover">
+                                <img src="p1.jpeg" class="img-fluid" alt="Album 1">
+                                <p>SSorry<br><small>Mar 23,2024</small></p>
+                            </div>
+                            <div class="album-cover">
+                                <img src="p2.png" class="img-fluid" alt="Album 2">
+                                <p>Bollywood<br><small>Apr 12,24</small></p>
+                            </div>
+                            <!-- Repeat for more albums -->
+                            <div class="album-cover">
+                                <img src="p3.jpg" class="img-fluid" alt="Album 3">
+                                <p>Badami Rang<br><small>May 25,2024</small></p>
+                            </div>
+                            <div class="album-cover">
+                                <img src="p4.jpeg" class="img-fluid" alt="Album 4">
+                                <p>Izazat<br><small>Jan 15,2024</small></p>
+                            </div>
+                            <div class="album-cover">
+                                <img src="p5.jpeg" class="img-fluid" alt="Album 5">
+                                <p>Milne<br><small>Feb 25,2024</small></p>
+                            </div>
+                            <div class="album-cover">
+                                <img src="p6.jpeg" class="img-fluid" alt="Album 6">
+                                <p>Collection<br><small>Apr 26,2024</small></p>
+                            </div>
+                            <div class="album-cover">
+                                <img src="p7.jpeg" class="img-fluid" alt="Album 7">
+                                <p>Akhil<br><small>Jun 12,2024</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Right Content (Queue) -->
+            <div class="col-md-3">
+                <h2 class="my-4 text-white">Queue</h2>
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                        <div class="d-flex w-100 justify-content-between">
+                            <div class="d-flex">
+                                <img src="l2.jpeg"alt="Queue Album" style="width: 50px;">
+                                <div class="ml-3">
+                                    <h5 class="mb-1"></h5>
+                                    <small></small>
+                                </div>
+                            </div>
+                            <small>4:48</small>
+                          
+                            
+                        </div>
+                    </a>
+                    <!-- Repeat for other queue items -->
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                        <div class="d-flex w-100 justify-content-between">
+                            <div class="d-flex">
+                                <img src="l3.jpeg" alt="Queue Album" style="width: 50px;">
+                                <div class="ml-3">
+                                    <h5 class="mb-1"></h5>
+                                    <small></small>
+                                </div>
+                            </div>
+                            <small>4:48</small>
+                          
+                            
+                        </div>
+                    </a>
+
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                        <div class="d-flex w-100 justify-content-between">
+                            <div class="d-flex">
+                                <img src="l4.png" alt="Queue Album" style="width: 50px;">
+                                <div class="ml-3">
+                                    <h5 class="mb-1"></h5>
+                                    <small></small>
+                                </div>
+                            </div>
+                            <small>4:48</small>
+                          
+                            
+                        </div>
+                    </a>
+
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                        <div class="d-flex w-100 justify-content-between">
+                            <div class="d-flex">
+                                <img src="p3.jpg" alt="Queue Album" style="width: 50px;">
+                                <div class="ml-3">
+                                    <h5 class="mb-1"></h5>
+                                    <small></small>
+                                </div>
+                            </div>
+                            <small>4:48</small>
+                          
+                            
+                        </div>
+                    </a>
+
+
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                        <div class="d-flex w-100 justify-content-between">
+                            <div class="d-flex">
+                                <img src="p6.jpeg" alt="Queue Album" style="width: 50px;">
+                                <div class="ml-3">
+                                    <h5 class="mb-1"></h5>
+                                    <small></small>
+                                </div>
+                            </div>
+                            <small>4:48</small>
+                          
+                            
+                        </div>
+                    </a>
+
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                        <div class="d-flex w-100 justify-content-between">
+                            <div class="d-flex">
+                                <img src="p7.jpeg" alt="Queue Album" style="width: 50px;">
+                                <div class="ml-3">
+                                    <h5 class="mb-1"></h5>
+                                    <small></small>
+                                </div>
+                            </div>
+                            <small>4:48</small>
+                          
+                            
+                        </div>
+                    </a>
+
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                        <div class="d-flex w-100 justify-content-between">
+                            <div class="d-flex">
+                                <img src="m3.jpg" alt="Queue Album" style="width: 50px;">
+                                <div class="ml-3">
+                                    <h5 class="mb-1"></h5>
+                                    <small>Else</small>
+                                </div>
+                            </div>
+                            <small>4:48</small>
+                          
+                            
+                        </div>
+                    </a>
+
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                        <div class="d-flex w-100 justify-content-between">
+                            <div class="d-flex">
+                                <img src="m6.jpg" alt="Queue Album" style="width: 50px;">
+                                <div class="ml-3">
+                                    <h5 class="mb-1"></h5>
+                                    <small></small>
+                                </div>
+                            </div>
+                            <small>4:48</small>
+                          
+                            
+                        </div>
+                    </a>
+
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                        <div class="d-flex w-100 justify-content-between">
+                            <div class="d-flex">
+                                <img src="m4.jpg" alt="Queue Album" style="width: 50px;">
+                                <div class="ml-3">
+                                    <h5 class="mb-1"></h5>
+                                    <small></small>
+                                </div>
+                            </div>
+                            <small>4:48</small>
+                          
+                            
+                        </div>
+                    </a>
+
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                        <div class="d-flex w-100 justify-content-between">
+                            <div class="d-flex">
+                                <img src="m1.jpg" alt="Queue Album" style="width: 50px;">
+                                <div class="ml-3">
+                                    <h5 class="mb-1"></h5>
+                                    <small></small>
+                                </div>
+                            </div>
+                            <small>4:48</small>
+                          
+                            
+                        </div>
+                    </a>
+
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                        <div class="d-flex w-100 justify-content-between">
+                            <div class="d-flex">
+                                <img src="p4.jpeg" alt="Queue Album" style="width: 50px;">
+                                <div class="ml-3">
+                                    <h5 class="mb-1"></h5>
+                                    <small></small>
+                                </div>
+                            </div>
+                            <small>4:48</small>
+                          
+                            
+                        </div>
+                    </a>
+
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                        <div class="d-flex w-100 justify-content-between">
+                            <div class="d-flex">
+                                <img src="p2.png" alt="Queue Album" style="width: 50px;">
+                                <div class="ml-3">
+                                    <h5 class="mb-1"></h5>
+                                    <small></small>
+                                </div>
+                            </div>
+                            <small>4:48</small>
+                          
+                            
+                        </div>
+                    </a>
+
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                        <div class="d-flex w-100 justify-content-between">
+                            <div class="d-flex">
+                                <img src="m5.jpg" alt="Queue Album" style="width: 50px;">
+                                <div class="ml-3">
+                                    <h5 class="mb-1"></h5>
+                                    <small></small>
+                                </div>
+                            </div>
+                            <small>4:48</small>
+                          
+                            
+                        </div>
+                    </a>
+
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                        <div class="d-flex w-100 justify-content-between">
+                            <div class="d-flex">
+                                <img src="p7.jpeg" alt="Queue Album" style="width: 50px;">
+                                <div class="ml-3">
+                                    <h5 class="mb-1"></h5>
+                                    <small></small>
+                                </div>
+                            </div>
+                            <small>4:48</small>
+                          
+                            
+                        </div>
+                    </a>
+
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                        <div class="d-flex w-100 justify-content-between">
+                            <div class="d-flex">
+                                <img src="p4.jpeg" alt="Queue Album" style="width: 50px;">
+                                <div class="ml-3">
+                                    <h5 class="mb-1"></h5>
+                                    <small></small>
+                                </div>
+                            </div>
+                            <small>4:48</small>
+                          
+                            
+                        </div>
+                    </a>
+
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                        <div class="d-flex w-100 justify-content-between">
+                            <div class="d-flex">
+                                <img src="m6.jpg" alt="Queue Album" style="width: 50px;">
+                                <div class="ml-3">
+                                    <h5 class="mb-1"></h5>
+                                    <small></small>
+                                </div>
+                            </div>
+                            <small>4:48</small>
+                          
+                            
+                        </div>
+                    </a>
+
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
+                        <div class="d-flex w-100 justify-content-between">
+                            <div class="d-flex">
+                                <img src="p1.jpeg" alt="Queue Album" style="width: 50px;">
+                                <div class="ml-3">
+                                    <h5 class="mb-1"></h5>
+                                    <small></small>
+                                </div>
+                            </div>
+                            <small>4:48</small>
+                          
+                            
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
